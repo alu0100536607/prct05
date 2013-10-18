@@ -42,5 +42,10 @@ class Fraccion
 
 end
 
-
+ejemplo = Fraccion.new(10,5)
+ejemplo.to_s
+ejemplo.suma(3,2)
+ejemplo.resta(3,2)
+ejemplo.producto(3,2)
+ejemplo.division(3,2)
 
